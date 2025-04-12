@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap");
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+} */
+* {
+  max-width: 100%;
+}
+body {
+  background-color: #b6b2c7;
+
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .navbar-brand {
+  font-family: "Kaushan Script", cursive !important;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.navbar {
+  box-shadow: 0px 2px 10px rgba(10, 12, 31, 0.6);
+  height: 8vh;
+  /* background: linear-gradient(to left, #58254a, #0d0713); */
+  background: linear-gradient(to left, #521742, #735391);
+  
+}
+.dropdown-menu {
+  color: antiquewhite;
+  background-color: transparent;
+}
+.dropdown-menu a {
+  color: white;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+.dropdown-menu a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  letter-spacing: 1px;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  border-bottom: 1px solid aquamarine;
+}
+
+
+/* product header*/
+.products {
+  margin-top: 7vh;
+}
+.products h2 {
+  letter-spacing: 2px;
+  padding-top: 4rem;
+  margin-top: 5vh;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  /* text-shadow: 2px 2px 30px rgb(10, 6, 20); */
+}
+
+/* gift category section */
+.gift-category {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px auto;
+  justify-content: center;
+}
+.gift-category a {
+  text-decoration: none;
+}
+
+.card-category {
+  height: 350px;
+  width: 250px;
+  border: 3px solid 33334d;
+  margin: 2rem;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.card-category p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Kaushan Script", cursive;
+}
+/* kids section */
+#kids-gifts {
+  border: 2px solid black;
+  height: 348px;
+  width: 248px;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/KidsGifts.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../images/KidsGifts.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* women section */
+#women-gifts {
+  border: 2px solid black;
+  height: 348px;
+  width: 248px;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/girlsGifts.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/girlsGifts.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* men section */
+#men-gifts {
+  border: 2px solid black;
+  height: 348px;
+  width: 248px;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/menGifts.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/menGifts.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gift-row-men,
+#gift-row-women,
+#gift-row-kids {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-head h2 {
+  color: black;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding-top: 7rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2rem;
+  color: #33334d;
+  height: 350px;
+  width: 280px;
+  padding: 20px;
+  border: none !important;
+  /* background-color: #e5e5e5; */
+  background-color: #b6b2c7;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.card img {
+  height: 10rem;
+  width: 12rem; 
+  padding-bottom: 20px;
+}
+.card:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3), inset -4px -4px 10px white;
+  transition: 0.3s;
+}
+
+.btn {
+  margin: 3%;
+  background-color: #33334d;
+  width: 120px;
+  border-radius: 20px;
+}
+
+#successMsgRedirect a{
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  /* margin: 3%; */
+  background-color: #2aa13a;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color:white ;
+  border-color: white;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer-info {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0px 2px 10px rgba(157, 162, 214, 0.6);
+  background: linear-gradient(to left, #58254a, #0d0713);
+  background: linear-gradient(to left, #925c84, #3f2b52);
+}
+.footer-bottom {
+  color: white;
+  font-size: 0.8rem;
+  /* justify-content: center; */
+}
+
+.social-icons ul {
+  /* padding-top: 20px; */
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #33334d; */
+}
+.social-icons ul li .fa {
+  color: white;
+  padding-right: 28px;
+  font-size: 25px;
+  text-decoration: none;
+}
+hr {
+  margin: 2rem;
+}
+/* cart */
+#shopping-cart h2 {
+  margin: 5vh;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  padding-top: 6rem;
+  color: rgb(32, 20, 84);
+  font-family: "Poppins", sans-serif;
+}
+.list-group {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+.list-group p {
+  text-align: center;
+  /* width: 300px; */
+  font-weight: 900;
+}
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b6b2c7;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.img-product{
+  margin: 0px;
+  width:110px;
+  height:100px;
+  padding: 0px;
+  /* border-radius: 50px; */
+}
+  
+.item-list p {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+}
+.form-select {
+  width: 400px;
+}
+
+.total-group {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+}
+.total-list {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  justify-content: flex-end;
+}
+.total-list p {
+  font-weight: 900;
+  color: #3f2b61;
+padding-right: 10px; 
+}
+.total-list span {
+  color: green;
+  font-weight: 1000;
+}
+#gift-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+#cart {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ background-color: #b6b2c7;
+}
+
+.item-list .btn-danger {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(176, 64, 64);
+  width: 5rem;
+  margin: 0%;
+  height: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  padding: 3%;
+}
+.cart-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30%;
+  align-items: center;
+  height: 10vh;
+}
+
+#paymentConfirmation{
+padding-top:25vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+#paymentConfirmation h4{
+font-size: 35px;
+}
+
+.paymentDetails {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  margin: 50px auto;
+}
+.paymentDetails p{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: blue;
+  letter-spacing: 1px;
+}
+.paymentDetails span{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: green;
+}
+
+
+.cart-bottom .shoppingButton {
+  background-color: #3f2b61;
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  /* padding-left: 5rem; */
+}
+.cart-bottom .checkoutButton {
+  background-color: #14693d;
+  /* width: 9.5rem; */
+  /* margin-left: 8rem; */
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* checkout form */
+
+#checkout {
+  /* background: linear-gradient( to left, #512243, #1e1030); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw; 
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 0.9;
+  /* margin-top: ; */
+}
+.checkout-container {
+  /* margin-top: 10vh; */
+  margin: auto 100px;
+  background-color: #94b8b8;
+  /* padding: 10vh; */
+}
+h2, h4{
+  font-family: "Poppins", sans-serif;
+  color: rgb(43, 41, 45);
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 1px rgb(126, 73, 224);
+}
+
+.checkout-container .btn {
+  margin: 5px auto;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(43, 41, 45);
+  letter-spacing: 1px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgb(126, 73, 224);
+}
+/* breakpoints for sm , md, lg */
+@media (max-width: 576px) {
+  #products h1 {
+    margin-top: 1vh;
+  }
+  #navbarNavDropdown {
+    background-color: rgba(25, 22, 51, 0.9);
+  }
+  .card {
+    width: 200px;
+    height: 260px;
+    padding: 40px;
+    margin: 1rem;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 6rem;
+    width: 6rem;
+  }
+  .social-icons ul li .fa {
+    padding-right: 18px;
+    font-size: 15px;
+  }
+  .footer-bottom {
+    color: white;
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #products h1 {
+    margin-top: 3vh;
+  }
+  #navbarNavDropdown {
+    background-color: rgba(25, 22, 51, 0.9);
+  }
+  .card {
+    width: 230px;
+    height: 275px;
+    padding: 40px;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 7rem;
+    width: 7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    width: 250px;
+    height: 320px;
+    padding: 40px;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 9rem;
+    width: 9rem;
+  }
+  #navbarNavDropdown {
+    background-color: rgba(25, 22, 51, 0.9);
+  }
+}
